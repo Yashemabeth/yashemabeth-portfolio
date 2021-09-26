@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header
+{
+    background-color: blue;
+   
+}

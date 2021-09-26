@@ -14,7 +14,6 @@ Images After changes
 Image After
 
 ### Link to deployed application.
-The link below should take you to my week 2 project to access all files.
 
 ### Link to github repository 
 https://github.com/Yashemabeth/yashemabeth-portfolio
