@@ -13,8 +13,6 @@ Image changes Image changes Image changes
 Images After changes
 Image After
 
-### Link to deployed application.
-
 ### Link to github repository 
 https://github.com/Yashemabeth/yashemabeth-portfolio
 

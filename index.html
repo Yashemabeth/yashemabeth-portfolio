@@ -1,80 +1,142 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yashemabeth Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
+
 <body>
-  <!--Header -->
-  <div class="header" id="header">
-      <header><h1>Yashemabeth Portfolio</h1></header>
-    <div class="nav" id="nav">
+    <!--Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light style="style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <a class="navbar-brand"><h1>Yashemabeth's Portfolio</h1></a>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#my-projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact-info">Contact Info</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--Nav Container-->
+    <div class="nav-flex-container">
         <nav>
             <ul>
-                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#about-flex-container">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact-info">Contact info</a></li>
             </ul>
         </nav>
-     </div>
-</div>  
- 
+    </div>
 
- <section>
-     <!-- About Me details -->
-     <div class="about" id="about-me"> 
-         <h2>About Me</h2>
-         <div><img src="./assets/images/portfolio.jpg" width="500px" height="500px"></div>
-         <div><p>Yashema continues to work with Stingray Records and her latest singles “Zion” released 5th
-            March 2021 and “Conversation” which is due to be released on 7th may 2021 were produced
-            by Carlton ‘Dillie’ McLeod. Her Most recent works saw the release of her Debut Album 
-            “Awakening” Produced by Carlton ‘Dillie’ McLeod on 13th November 2020. Tracks like “I’m 
-            Just a Girl”, “Ooh La La’’ and “Prophecy” are featured on the Album. Her songs are a 
-            combination of Reggae, Lovers, Roots, Spiritual and Inspirational.</p></div>   
+    <section>
+        <!-- About Me details -->
+        <h2>About Me</h2>
+        <div class="about" id="about-me">
+            <div><img src="./assets/images/portfolio.jpg" width="500px" height="500px"></div>
+            <div>
+                <p>Yashema continues to work with Stingray Records and her latest singles “Zion” released 5th
+                    March 2021 and “Conversation” which is due to be released on 7th may 2021 were produced
+                    by Carlton ‘Dillie’ McLeod. Her Most recent works saw the release of her Debut Album
+                    “Awakening” Produced by Carlton ‘Dillie’ McLeod on 13th November 2020. Tracks like “I’m
+                    Just a Girl”, “Ooh La La’’ and “Prophecy” are featured on the Album. Her songs are a
+                    combination of Reggae, Lovers, Roots, Spiritual and Inspirational.</p>
+            </div>
         </div>
- </section>
-   
- <section>
-      <!-- My Projects -->
-     <div class="projects" id="projects">
-         <h2>Projects</h2>
-         <!--Project card 1 -->
-         <div><h3>Project 1</h3> <img src="./assets/images/project.png" width="300px" height="300"></div>
-         <!--Project card 2 -->
-         <div><h3>Project 2</h3> <img src="./assets/images/project.png" width="100px" height="100"></div>
-         <!--Project card 3 -->
-         <div><h3>Project 3</h3> <img src="./assets/images/project.png" width="100px" height="100"></div>
-         <!--Project card 4 -->
-         <div><h3>Project 4</h3> <img src="./assets/images/project.png" width="100px" height="100"></div>
-         <!--Project card 5 -->
-         <div><h3>Project 5</h3> <img src="./assets/images/project.png" width="100px" height="100"></div>
-         <!--Project card 6 -->
-         <div><h3>Project 6</h3> <img src="./assets/images/project.png" width="100px" height="100"></div>
-         <!--Project card 7 -->
-         <div><h3>Project 7</h3> <img src="./assets/images/project.png" width="100px" height="100"></div>
-     </div>
- </section>
- 
-  <!-- Contact Info -->
- <div class="contact" id="contact-info">
-     <h2>Contact info</h2>
-     <ul>
-        <li><a href="https://www.facebook.com/YashemaMusic">facebook</a></li>
-        <li><a href="https://twitter.com/YashemaMusic">twitter</a></li>
-        <li><a href="mailto:yashemabethmcleod@gmail.com">Email</a></li>
-        <li><a href="tel:+000000000000">Phone</a></li>
-    </ul>
- </div>
+    </section>
 
- <!-- Footer-->
-<div>
-    <footer class="footer" id="footer">
-     <h4>Created by Yashemabeth McLeod</h4>
-   </footer>
-</div>
+    <section>
+        <!-- My Projects -->
+        <h2>Projects</h2>
+        <div class="Projects" id="my-projects">
+
+        <!--Project card 1 -->
+        <div>
+            <a href="https://yashemabeth.github.io/bored-as-book/">
+                <h3>Bored-As-Book</h3>
+                <img src="./assets/images/screenshot/bored-as-book5.png" width="400px" height="400">
+            </a>
+        </div>
+
+        <!-- flex container -->
+        <div class="projects-flex-container">
+            <!--Project card 2 -->
+            <div>
+                <a href="https://yashemabeth.github.io/bored-as-book/">
+                    <h3>Bored-As-Book</h3>
+                    <img src="./assets/images/screenshot/bored-as-book5.png" width="300px" height="300">
+                </a>
+            </div>
+            <!--Project card 3 -->
+            <div>
+                <a href="https://yashemabeth.github.io/bored-as-book/">
+                    <h3>Bored-As-Book</h3>
+                    <img src="./assets/images/screenshot/bored-as-book5.png" width="300px" height="300">
+                </a>
+            </div>
+            <!--Project card 4 -->
+            <div>
+                <a href="https://yashemabeth.github.io/bored-as-book/">
+                    <h3>Bored-As-Book</h3>
+                    <img src="./assets/images/screenshot/bored-as-book5.png" width="300px" height="300">
+                </a>
+            </div>
+            <!--Project card 5 -->
+            <div>
+                <a href="https://yashemabeth.github.io/bored-as-book/">
+                    <h3>Bored-As-Book</h3>
+                    <img src="./assets/images/screenshot/bored-as-book5.png" width="300px" height="300">
+                </a>
+            </div>
+            <!--Project card 6 -->
+            <div>
+                <a href="https://yashemabeth.github.io/bored-as-book/">
+                    <h3>Bored-As-Book</h3>
+                    <img src="./assets/images/screenshot/bored-as-book5.png" width="300px" height="300">
+                </a>
+            </div>
+            <!--Project card 7 -->
+            <div>
+                <a href="https://yashemabeth.github.io/bored-as-book/">
+                    <h3>Bored-As-Book</h3>
+                    <img src="./assets/images/screenshot/bored-as-book5.png" width="300px" height="300">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <div class="contact" id="contact-info">
+        <h2>Contact info</h2>
+        <ul>
+            <li><a href="https://www.facebook.com/YashemaMusic">Facebook</a></li>
+            <li><a href="https://twitter.com/YashemaMusic">Twitter</a></li>
+            <li><a href="mailto:yashemabethmcleod@gmail.com">Email</a></li>
+            <li><a href="https://github.com/Yashemabeth">Github</a></li>
+        </ul>
+    </div>
+
+    <!-- Footer-->
+    <div>
+        <footer class="footer" id="footer">
+            <h4>Created by Yashemabeth McLeod</h4>
+        </footer>
+    </div>
 
 
 </body>
+
 </html>
