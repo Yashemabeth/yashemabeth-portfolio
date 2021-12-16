@@ -17,4 +17,5 @@ Image After
 https://github.com/Yashemabeth/yashemabeth-portfolio
 
 ### Link to deployed application
-https://github.com/Yashemabeth/yashemabeth-portfolio/blob/dev/index.html
+Website
+https://Yashemabeth.github.io/yashemabeth-portfolio/
