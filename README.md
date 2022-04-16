@@ -8,24 +8,38 @@ The aim of this project was to create my own web page. The page needs to have cs
 
 ## Screenshots
 
-- Image before -Week 1
+### Homework week 2
 
+- Image of webpage
   <img src="./assets/images/screenshot/image1.png">
 
-- Image changes
+- Image work in progress
   <img src="./assets/images/screenshot/image2.png">
 
-- Images throughout changes
+- Image throughout changes
   <img src="./assets/images/screenshot/image3.png">
 
-- Image changes
+- Final
   <img src="./assets/images/screenshot/image4.png">
 
-- Images After changes - Week 8
+### Homework week 8
+
+- Images of webpage
   <img src="./assets/images/screenshot/webpageupdate.png">
 
-- Images After changes
+- Image-work in progress
   <img src="./assets/images/screenshot/portfolioupdate.png">
+
+### Homework week 16
+
+- Image work in progress
+  <img src="./assets/images/screenshot/final-wk8.png">
+
+- Image throughout changes
+  <img src="./assets/images/screenshot/week16.png">
+
+- Final
+  <img src="./assets/images/screenshot/week16F.png">
 
 ### Link to github repository
 
